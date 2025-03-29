@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { formToJSON } from "axios";
 
 const LoginForm = () => {
   const [email, setEmail] = useState("");
